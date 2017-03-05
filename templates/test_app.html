@@ -1,0 +1,9 @@
+<h3>request</h3>
+<pre>
+{{ request.__dict__|pprint  }}
+</pre>
+<h3>environment</h3>
+<pre>
+{% for k, v in environ.items() %}{{ k  }} = {{ v }}
+{% endfor %}
+</pre>
