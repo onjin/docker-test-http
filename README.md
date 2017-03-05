@@ -7,11 +7,11 @@
 Build your own:
 
 ```
-docker build -t test-app .  # or make test-app
+docker build -t test-http .  # or make test-http
 ```
 
 Use this version from docker hub:
 
 ```
-docker run -it --rm -p 8888:8888 test-app
+docker run -it --rm -p 8888:8888 onjin/test-http
 ```
